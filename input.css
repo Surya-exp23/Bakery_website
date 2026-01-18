@@ -11,11 +11,42 @@
 body{
   @apply bg-green-950 text-white font-jost tracking-wider;
 }
+ 
+.container{
+  @apply max-w-7xl mx-auto;
+}
 
+section{
+  @apply py-0 md:py-20;
+} 
+h1{
+  @apply text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight;
+}
 .nav-link{
-  @apply text-lg font-bold duration-300;
+  @apply text-sm lg:text-base font-semibold tracking-wide; 
 }
 
 .nav-link:hover{
   @apply text-yellow-500;
+}
+
+.btn{
+  @apply border border-yellow-500 bg-yellow-500 rounded-md px-6 py-3 text-sm md:text-base duration-300;
+}
+
+
+.btn span{
+  @apply font-bold;
+}
+
+.btn:hover{
+  @apply opacity-90;
+}
+
+.btn_outline{
+  @apply bg-transparent;
+}
+
+.btn_outline:hover{
+  @apply bg-yellow-500;
 }
