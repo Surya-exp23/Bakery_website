@@ -43,8 +43,17 @@
       </nav>
     </header>
     <main>
-      <section id="home" class="min-h-screen flex items-center px-4 pt-28">
+      <section id="home" class="min-h-screen flex items-center px-4 pt-28 relative">
         <div class="container">
+
+          <!-- blob 1 portion -->
+          <div class="w-85 h-85 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-[25%] transform -translate-x-1/2 -translate-y-1/2">
+          </div>
+
+          <!-- blub 2 portion -->
+          <div class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute right-12 bottom-12">
+          </div>
+
           <div class="flex flex-col items-center gap-5 lg:flex-row">
             <!-- content portion -->
             <div class="w-full lg:w-1/2 space-y-6 text-left">
@@ -78,15 +87,15 @@
              <div class="w-full lg:w-1/2 flex justify-center lg:justify-end relative ">
               <img src="assests/img/home.png" alt="homeimage" class="max-w-md lg:max-w-lg xl:max-w-xl">
 
-              <div class="absolute top-6 right-6 opacity-30 hidden md:block">
+              <div class="absolute top-6 right-6 opacity-30 hidden md:block moving">
                 <i class="ri-leaf-line text-5xl text-yellow-500 "></i>
               </div>
 
-              <div class="absolute bottom-16 left-16 opacity-30 hidden md:block">
+              <div class="absolute bottom-16 left-16 opacity-30 hidden md:block moving">
                 <i class="ri-flower-line text-5xl text-yellow-500"></i>
               </div>
 
-              <div class="absolute top-10 left-10 opacity-30 hidden lg:block">
+              <div class="absolute top-10 left-10 opacity-30 hidden lg:block moving">
                 <i class="ri-plant-line text-5xl text-yellow-500"></i>
               </div>
 
@@ -94,6 +103,106 @@
           </div>
         </div>
       </section>
+
+      <!-- section portion -->
+       <div class="bg-white text-green-900 py-20">
+        <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <!-- card 1-->
+           <div class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300 space-y-5">
+            <div class="flex items-center gap-5">
+              <i class="ri-truck-line text-3xl md:text-4xl"></i>
+              <p class="md:text-lg font-bold">
+                Fast <br>
+                Delivery
+              </p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis
+            </p>
+           </div>
+
+           <!-- card 2-->
+           <div class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300 space-y-5">
+            <div class="flex items-center gap-5">
+              <i class="ri-customer-service-line text-3xl md:text-4xl"></i>
+              <p class="md:text-lg font-bold">
+                Great Customer <br>
+                Service
+              </p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis
+            </p>
+           </div>
+
+           <!-- card 3-->
+           <div class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300 space-y-5">
+            <div class="flex items-center gap-5">
+              <i class="ri-plant-line text-3xl md:text-4xl"></i>
+              <p class="md:text-lg font-bold">
+                Original <br>
+                Plants
+              </p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis
+            </p>
+           </div>
+
+           <!-- card 4-->
+           <div class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300 space-y-5">
+            <div class="flex items-center gap-5">
+              <i class="ri-money-dollar-circle-line text-3xl md:text-4xl"></i>
+              <p class="md:text-lg font-bold">
+                Affordable <br>
+                Price
+              </p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis
+            </p>
+           </div>
+        </div>
+       </div>
+
+       <section id="about" class="relative overflow-hidden">
+        <div class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+          <h2 class="title">About Us</h2>
+          <p class="max-w-2xl">Follow instruction for more</p>
+        </div>
+
+        <div class="container space-y-10 xl:space-y-0">
+          <!-- item 1 -->
+          <div class="flex flex-col items-center lg:flex-row gap-5 ">
+            <div class="w-full lg:w-1/2">
+              <img src="assests/img/plant-1.png" alt="about_img" class="w-full sm:w-2/3 lg:w-full xl:w-full mx-auto">
+            </div>
+
+            <div class="w-full lg:w-1/2">
+              <div class="space-y-5">
+                <h3>Make your <span class="text-yellow-500">organic</span>  <br>garden</h3>
+                <p class="text-slate-300 font-lobster">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ratione rem maxime veniam cum libero voluptas tempora aut saepe similique, eos corporis. Expedita culpa consequatur animi deleniti ullam adipisci iure sequi dolores modi aliquam laudantium,
+                explicabo nobis quia id reprehenderit.?</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 2 -->
+          <div class="flex flex-col items-center lg:flex-row gap-5 ">
+            <div class="w-full lg:w-1/2">
+              <img src="assests/img/plant-1.png" alt="about_img" class="w-full sm:w-2/3 lg:w-full xl:w-full mx-auto">
+            </div>
+
+            <div class="w-full lg:w-1/2">
+              <div class="space-y-5">
+                <h3>Make your <span class="text-yellow-500">organic</span>  <br>garden</h3>
+                <p class="text-slate-300 font-lobster">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ratione rem maxime veniam cum libero voluptas tempora aut saepe similique, eos corporis. Expedita culpa consequatur animi deleniti ullam adipisci iure sequi dolores modi aliquam laudantium,
+                explicabo nobis quia id reprehenderit.?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
     </main>
 
     <script src="main.js"></script>
