@@ -13,6 +13,11 @@
   --font-stalemate: "Stalemate", cursive;
 }
 
+html{
+  @apply overflow-x-hidden scroll-smooth;
+}
+
+
 body{
   @apply bg-[#0F0B08] text-[#F5F3EF] font-poppins tracking-wider;
 }
@@ -44,6 +49,10 @@ h3{
   @apply text-[#fca400] ;
 }
 
+.active{
+  @apply text-[#fca400];
+}
+
 .btn{
   @apply border border-[#fca400] bg-[#914400] rounded-md px-6 py-3 text-sm md:text-base duration-300;
 }
@@ -54,7 +63,7 @@ h3{
 }
 
 .btn:hover{
-  @apply opacity-90;
+  @apply opacity-90 scale-102 translate-y-1 ;
 }
 
 .btn_outline{
@@ -77,4 +86,19 @@ h3{
 
 .title{
   @apply  font-jost text-yellow-500; 
+}
+
+.popularcard:hover img{
+  @apply -top-8;
+}
+
+
+.swiper-pagination-bullet {
+  @apply bg-amber-400 w-3 h-3;
+}
+
+.swiper-pagination {
+  bottom: -2rem !important;
+  z-index: 10;
+  margin-top: 2rem;
 }

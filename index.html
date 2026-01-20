@@ -9,7 +9,7 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
-  <title>BEherby</title>
+  <title>BakedERA</title>
 </head>
 <body>
     <header id="navbar" class=" bg-[#0F0B08] fixed w-full top-0 left-0 z-50">
@@ -19,7 +19,7 @@
         <div id="nav-menu" class="absolute top-0 left-full min-h-[80vh] w-full bg-[#0F0B08]/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:flex-1 ">
           <ul class="flex flex-col items-center gap-8 lg:flex-row">
             <li>
-              <a href="#home" class="nav-link">HOME</a>
+              <a href="#home" class="nav-link active">HOME</a>
             </li>
             <li>
               <a href="#about" class="nav-link">ABOUT</a>
@@ -59,7 +59,7 @@
 
           <div class="flex flex-col items-center gap-5 lg:flex-row">
             <!-- content portion -->
-            <div class="w-full lg:w-1/2 space-y-6 text-left">
+            <div class="home_data  w-full lg:w-1/2 space-y-6 text-left">
               <h1>Where<span class="text-[#914400]"> rich</span> flavors meet 
             <span class="text-[#914400]">  handcrafted perfection</span> </h1>
             <p class="text-slate-300 text-base max-w-xl leading-relaxed font-playfair">Crafted in small batches using the finest ingredients,<br> our desserts are baked fresh to deliver rich flavors and unforgettable textures. 
@@ -86,7 +86,7 @@
 
             <!-- image -->
              <div class="w-full lg:w-1/2 flex justify-center lg:justify-end relative ">
-              <img src="assests/img/home1.png" alt="homeimage" class="max-w-md lg:max-w-lg xl:max-w-xl">
+              <img src="assests/img/home1.png" alt="homeimage" class="home_image max-w-md lg:max-w-lg xl:max-w-xl">
 
               <div class="absolute top-6 right-6 opacity-30 hidden md:block moving">
                 <i class="ri-drinks-fill text-5xl text-yellow-500 "></i>
@@ -109,7 +109,7 @@
        <div class="bg-[#221000] text-[#ffffff] py-20">
         <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <!-- card 1-->
-           <div class="border border-[#fca400] p-5 cursor-pointer rounded-md hover:shadow-[0_2px_8px_#b57600] 
+           <div class="service_card border border-[#fca400] p-5 cursor-pointer rounded-md hover:shadow-[0_2px_8px_#b57600] 
               hover:translate-y-1 duration-300 space-y-5">
             <div class="flex items-center gap-5">
               <i class="ri-truck-line text-3xl md:text-4xl"></i>
@@ -124,7 +124,7 @@
            </div>
 
            <!-- card 2-->
-           <div class="border border-[#fca400] p-5 cursor-pointer rounded-md hover:shadow-[0_2px_8px_#b57600] hover:translate-y-1 duration-300 space-y-5">
+           <div class="service_card border border-[#fca400] p-5 cursor-pointer rounded-md hover:shadow-[0_2px_8px_#b57600] hover:translate-y-1 duration-300 space-y-5">
             <div class="flex items-center gap-5">
               <i class="ri-customer-service-line text-3xl md:text-4xl"></i>
               <p class="md:text-lg font-bold">
@@ -138,7 +138,7 @@
            </div>
 
            <!-- card 3-->
-           <div class="border border-[#fca400] p-5 cursor-pointer rounded-md hover:shadow-[0_2px_8px_#b57600] hover:translate-y-1 duration-300 space-y-5">
+           <div class="service_card border border-[#fca400] p-5 cursor-pointer rounded-md hover:shadow-[0_2px_8px_#b57600] hover:translate-y-1 duration-300 space-y-5">
             <div class="flex items-center gap-5">
               <i class="ri-cake-2-fill text-3xl md:text-4xl"></i>
               <p class="md:text-lg font-bold">
@@ -152,7 +152,7 @@
            </div>
 
            <!-- card 4-->
-           <div class="border border-[#fca400] p-5 cursor-pointer rounded-md hover:shadow-[0_2px_8px_#b57600] hover:translate-y-1 duration-300 space-y-5">
+           <div class="service_card border border-[#fca400] p-5 cursor-pointer rounded-md hover:shadow-[0_2px_8px_#b57600] hover:translate-y-1 duration-300 space-y-5">
             <div class="flex items-center gap-5">
               <i class="ri-money-dollar-circle-line text-3xl md:text-4xl"></i>
               <p class="md:text-lg font-bold">
@@ -169,12 +169,12 @@
 
        <section id="about" class="relative overflow-hidden">
 
-        <div class="relative -top-8 -right-12 opacity-50">
+        <div class="about_leaf relative -top-8 -right-12 opacity-50">
           <img src="assests/img/leaf-3.png" alt="leaf_image" class="absolute top-0 right-0 w-32 md:w-44 xl:w-56 opacity-40 pointer-events-none select-none">
         </div>
 
 
-        <div class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+        <div class="about_top flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
           <h2 class="title">About Us</h2>
           <p class="max-w-2xl text-3xl font-mrs-saint-delafield">Follow for more information</p>
         </div>
@@ -182,14 +182,14 @@
         <div class="container space-y-10 xl:space-y-0">
           <!-- item 1 -->
           <div class="flex flex-col items-center lg:flex-row gap-5">
-            <div class="w-full lg:w-1/2">
+            <div class="about_item1_img w-full lg:w-1/2">
               <img src="assests/img/plant-11.png" alt="about_img" class="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
             </div>
 
-            <div class="w-full lg:w-1/2">
+            <div class="about_item1_content w-full lg:w-1/2">
               <div class="space-y-5">
                 <!-- blub -->
-                <div class="w-100 h-100 bg-[#794723] rounded-full  -z-10 opacity-40 absolute top-122 left-[25%] transform -translate-x-1/2 -translate-y-1/2 right-12 bottom-12">
+                <div class="about_item1_img w-100 h-100 bg-[#794723] rounded-full  -z-10 opacity-40 absolute top-122 left-[25%] transform -translate-x-1/2 -translate-y-1/2 right-12 bottom-12">
                 </div>
                 
                 <h3>Crafted with 
@@ -201,14 +201,14 @@
 
           <!-- item 2 -->
           <div class="flex flex-col items-center lg:flex-row-reverse gap-5 ">
-            <div class="w-full lg:w-1/2">
+            <div class="about_item2_img w-full lg:w-1/2">
               <img src="assests/img/plant-21.png" alt="about_img" class="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
             </div>
 
-            <div class="w-100 h-100 bg-[#794723] rounded-full  -z-10 opacity-40 absolute right-68 bottom-28 ">
+            <div class="about_item2_img w-100 h-100 bg-[#794723] rounded-full  -z-10 opacity-40 absolute right-68 bottom-28 ">
                 </div>
 
-            <div class="w-full lg:w-1/2">
+            <div class="about_item2_content w-full lg:w-1/2">
               <div class="space-y-5">
                 
                 <h3>Where  
@@ -335,8 +335,14 @@
 
        </section>
 
+       <!-- review section -->
+       <section id="review" class="relative mb-42 overflow-hidden">
+        <div class="absolute -top-8 -left-12 opacity-50">
+          <img src="assests/img/leaf-4.png" alt="leaf" class="w-40 md:w-52 xl:w-64">
 
-       <section id="review">
+        </div>
+
+
         <div class="flex flex-col items-center gap-3 text-center mb-10 md:mb-28">
           <h2 class="title">Customer review</h2>
           <p class="max-w-2xl text-2xl font-mrs-saint-delafield">Visit for more options</p>
@@ -422,12 +428,106 @@
         </div>
 
        </section>
-
-
     </main>
 
+    <footer class="bg-[#221000] text-white pt-20 pb-10 md:pb-28 relative">
+      <div class="container text-white absolute right-0 top-0 left-0 -translate-y-1/2 shadow-2xl">
+        <div class="bg-[#221000] px-10 pt-5 pb-10 space-y-5 rounded-2xl border-amber-50 shadow-2xl shadow-black">
+          <h3>
+            Send us your <span class="text-yellow-600">review</span></h3>
+            
+            <div class="flex flex-col md:flex-row gap-1">
+              <input type="email" placeholder="type your email......." class="w-full px-5 py-3 text-yellow-500 rounded-md outline-none focus:ring-1 focus:ring-yellow-800 bg-[#4b2300] placeholder-yellow-700">
+              <button class="flex items-center gap-2 bg-yellow-700 px-5 py-3 rounded-md text-black hover:bg-yellow-600 duration-300 mt-2 md:mt-0">
+                <span>Submit</span>
+                <i class="ri-mail-send-fill"></i>
+              </button>
+            </div>
+          </div>
+      </div>
+
+      <div class="container mt-16 mb-10">
+        <div class="border-b border-yellow-600 relative ">
+          <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto">
+            <div class="bg-[#221000] text-lg text-center space-x-2">
+              <i class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+              <i class="ri-twitter-x-line hover:text-yellow-500 duration-300 cursor-pointer"></i>
+              <i class="ri-instagram-line hover:text-yellow-500 duration-300 cursor-pointer "></i>
+              <i class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-center md:text-start">
+        <div>
+          <div class="text-7xl text-yellow-700 text-center initial-block">
+            <i class="ri-cake-3-fill"></i>
+            <p class="font-mrs-saint-delafield sm:text-3xl">BakedERA</p>
+          </div>
+        </div>
+
+        <div>
+          <p class="mb-5 font-bold text-xl">
+            Quick links
+          </p>
+
+          <div class="flex flex-col gap-1">
+            <a href="#">Cakes</a>
+            <a href="#">Pastries</a>
+            <a href="#">Cold Coffee</a>
+            <a href="#">Bread</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+
+        <div>
+          <p class="mb-5 font-bold text-xl">
+            Popular Services
+          </p>
+
+          <div class="flex flex-col gap-1">
+            <a href="#">Assistance</a>
+            <a href="#">Home service</a>
+            <a href="#">For Parties</a>
+            <a href="#">Custom Shapes</a>
+            <a href="#">Home delivery</a>
+          </div>
+        </div>
+
+        <div>
+          <p class="mb-5 font-bold text-xl">
+            Contact Us
+          </p>
+
+          <div class="flex flex-col gap-1">
+            <a href="tel:+8833378901">+88 333 78 901</a>
+            <a href="mailto:BakedERA@gmail.com">BakedERA@gmail.com</a>
+            <br>
+            <a href="#">123 Baker Street, NY</a>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="text-center text-sm mt-10 opacity-50">© 2025 BakedERA. All rights reserved.</p>
+
+
+      <div class="absolute bottom-0 left-0 opacity-25 pointer-events-none ">
+        <img src="assests/img/floral-1.png" alt="floral" class="w-full lg:w-1/2">
+      </div>
+
+    </footer>
+
+
+    <a href="#" class="fixed right-4 -bottom-1/2 bg-yellow-700 rounded-full shadow-sm inline-block px-3 py-3 md:px-4 md:py-2 z-50 text-lg hover:translate-y-1 duration-300" id="scrollup">
+      <i class="ri-arrow-up-line"></i>
+    </a>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="assests/js/scrollreveal.min.js"></script>
+
     <script src="main.js"></script>
 </body>
 </html>
