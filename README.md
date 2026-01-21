@@ -41,9 +41,16 @@ The goal was to create a visually rich experience that feels premium, minimal, a
 ## 📸 Screenshots
 
 
-![Homepage](https://github.com/Surya-exp23/Bakery_website/blob/main/Screenshots/Screenshot1.png)
-![About Section](screenshot2.png)
-![Popular Items](Screenshots/Screenshot1.png)
-![Review section](screenshot4.png)
-![Footer section](screenshot5.png)
-<img src="Screenshots/Screenshot1.png" width="400"/> <img src="Screenshots/Screenshot2.png" width="400"/>
+<div style="display: flex; justify-content: center;">
+  <img src="Screenshots/screenshot1.png" width="45%" />
+  <img src="Screenshots/screenshot2.png" width="45%" />
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <img src="Screenshots/screenshot3.png" width="45%" />
+  <img src="Screenshots/screenshot4.png" width="45%" />
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <img src="Screenshots/screenshot5.png" width="45%" />
+</div>
