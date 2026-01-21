@@ -38,6 +38,35 @@ The goal was to create a visually rich experience that feels premium, minimal, a
 
 ---
 
+
+## 🎨 Tailwind CSS
+
+Tailwind CSS is a utility-first CSS framework that allows you to build modern, responsive user interfaces directly in your HTML. Instead of writing custom CSS, you compose designs using predefined utility classes, making development faster and more consistent.
+
+# ⚙️ Installation (Basic Setup)
+
+- Install Tailwind via npm:  
+
+```md
+    npm install -D tailwindcss
+    npx tailwindcss init
+
+
+
+- Add Tailwind directives to your CSS file:
+
+```md
+    @tailwind utilities;
+
+
+
+- Build your CSS:
+
+```md
+    npx tailwindcss -i ./input.css -o ./output.css --watch
+
+---
+
 ## 📸 Screenshots
 
 
