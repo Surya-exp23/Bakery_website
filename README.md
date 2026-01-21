@@ -41,7 +41,6 @@ The goal was to create a visually rich experience that feels premium, minimal, a
 ## 📸 Screenshots
 
 
-```md
 ![Homepage](https://github.com/Surya-exp23/Bakery_website/blob/main/Screenshots/Screenshot1.png)
 ![About Section](screenshot2.png)
 ![Popular Items](Screenshots/Screenshot1.png)
