@@ -47,4 +47,4 @@ The goal was to create a visually rich experience that feels premium, minimal, a
 ![Popular Items](screenshot3.png)
 ![Review section](screenshot4.png)
 ![Footer section](screenshot5.png)
-
+<img src="Screenshots/Screenshot1.png" width="400"/> <img src="Screenshots/Screenshot2.png" width="400"/>
