@@ -50,20 +50,22 @@ Tailwind CSS is a utility-first CSS framework that allows you to build modern, r
 ```md
     npm install -D tailwindcss
     npx tailwindcss init
-
+```
 
 
 - Add Tailwind directives to your CSS file:
 
 ```md
     @tailwind utilities;
-
+```
 
 
 - Build your CSS:
 
 ```md
     npx tailwindcss -i ./input.css -o ./output.css --watch
+```
+
 
 ---
 
