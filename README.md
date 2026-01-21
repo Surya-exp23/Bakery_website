@@ -42,9 +42,9 @@ The goal was to create a visually rich experience that feels premium, minimal, a
 
 
 ```md
-![Homepage](screenshot1.png)
+![Homepage](https://github.com/Surya-exp23/Bakery_website/blob/main/Screenshots/Screenshot1.png)
 ![About Section](screenshot2.png)
-![Popular Items](screenshot3.png)
+![Popular Items](Screenshots/Screenshot1.png)
 ![Review section](screenshot4.png)
 ![Footer section](screenshot5.png)
 <img src="Screenshots/Screenshot1.png" width="400"/> <img src="Screenshots/Screenshot2.png" width="400"/>
