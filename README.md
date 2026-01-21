@@ -42,15 +42,15 @@ The goal was to create a visually rich experience that feels premium, minimal, a
 
 
 <div style="display: flex; justify-content: center;">
-  <img src="Screenshots/screenshot1.png" width="45%" />
-  <img src="Screenshots/screenshot2.png" width="45%" />
+  <img src="Screenshots/Screenshot1.png" width="45%" />
+  <img src="Screenshots/Screenshot2.png" width="45%" />
 </div>
 
 <div style="display: flex; justify-content: center;">
-  <img src="Screenshots/screenshot3.png" width="45%" />
-  <img src="Screenshots/screenshot4.png" width="45%" />
+  <img src="Screenshots/Screenshot3.png" width="45%" />
+  <img src="Screenshots/Screenshot4.png" width="45%" />
 </div>
 
 <div style="display: flex; justify-content: center;">
-  <img src="Screenshots/screenshot5.png" width="45%" />
+  <img src="Screenshots/Screenshot5.png" width="45%" />
 </div>
