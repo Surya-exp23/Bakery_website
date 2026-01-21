@@ -69,6 +69,23 @@ Tailwind CSS is a utility-first CSS framework that allows you to build modern, r
 
 ---
 
+🚀 Getting Started
+
+1. Clone the repository  
+```bash
+   https://github.com/Surya-exp23/Bakery_website.git
+```
+
+2. Open and setup the project folders  
+
+
+3. Open index.html in your browser  
+(or use Live Server for best experience)
+
+
+---
+
+
 ## 📸 Screenshots
 
 
@@ -85,3 +102,22 @@ Tailwind CSS is a utility-first CSS framework that allows you to build modern, r
 <div style="display: flex; justify-content: center;">
   <img src="Screenshots/Screenshot5.png" width="45%" />
 </div>
+
+
+---
+
+
+## 📌 Future Improvements
+
+- 🛒 Add cart functionality
+- 🔐 Authentication for users
+- 📦 Backend integration
+- 💳 Online payment support
+- 🌐 Deploy with custom domain
+- 🤖 Responsiveness to Some screens
+
+---
+
+## 📄 License
+
+This project is open-source and available for learning and personal use.
